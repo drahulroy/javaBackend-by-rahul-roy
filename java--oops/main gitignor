@@ -3,7 +3,6 @@
 
 # Log files
 *.log
-spring.log
 
 # BlueJ files
 *.ctxt
@@ -85,8 +84,6 @@ build/
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 # Eclipse
 .metadata/
@@ -101,12 +98,6 @@ out/
 .settings/
 bin/
 tmp/
-.apt_generated
-.factorypath
-.springBeans
-.sts4-cache
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 # Android Studio
 .gradle/
@@ -128,7 +119,6 @@ nbdist/
 *.iml
 *.ipr
 *.iws
-.nb-gradle/
 
 # Log files
 *.log
@@ -187,12 +177,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-### Spring Boot ###
-# Spring Boot application.properties and application.yml
-*.properties
-*.yml
-*.yaml
-
-# Spring Boot specific
-/spring-boot-admin-server-ui/
