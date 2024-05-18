@@ -1,4 +1,4 @@
-package oops;
+package oops.ClassObjectConstructor;
 
 // Creating class Student
 class Student {

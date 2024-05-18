@@ -1,2 +1,4 @@
-package oops.ClassObjectInheritances;public class Main {
+package oops.ClassObjectInheritances;
+
+public class Main {
 }

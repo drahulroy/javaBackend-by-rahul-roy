@@ -1,4 +1,6 @@
-package oops;
+package oops.ClassObjectConstructor;
+
+import oops.Student;
 
 public class Main {
     public static void main(String[] args) {
