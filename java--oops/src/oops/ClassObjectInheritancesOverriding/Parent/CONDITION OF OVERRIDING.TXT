@@ -1,0 +1,25 @@
+Conditions for Overriding
+Same Method Signature:
+
+The overriding method must have the same name, return type, and parameter list as the method in the superclass.
+Inheritance:
+
+There must be an inheritance relationship between the two classes (i.e., the subclass must extend the superclass).
+Accessibility:
+
+The overriding method cannot have a more restrictive access modifier than the method it overrides. For example, if the superclass method is public, the overriding method must also be public. If the superclass method is protected, the overriding method can be protected or public, but not private.
+Exception Handling:
+
+The overriding method can only throw the same exceptions or subclasses of those exceptions that the overridden method throws. It cannot throw new or broader checked exceptions.
+Non-static Methods:
+
+Only instance methods can be overridden. Static methods cannot be overridden but can be hidden by declaring a static method with the same name and signature in the subclass.
+Not Final:
+
+The method in the superclass must not be marked as final. A final method cannot be overridden.
+Not Private:
+
+The method in the superclass must not be marked as private. Private methods are not visible to subclasses and thus cannot be overridden.
+Use of @Override Annotation:
+
+While not mandatory, it is good practice to use the @Override annotation to indicate that a method is intended to override a method in the superclass. This helps catch errors at compile time.
