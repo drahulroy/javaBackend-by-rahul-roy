@@ -1,0 +1,11 @@
+insert into COURSE (CourseID,CourseName,AutherName)
+values(1,'r','r');
+select *from COURSE ;
+
+INSERT INTO Courses (CourseID, CourseName, InstructorName) VALUES
+(1, 'Learn AWS', 'BY Rahul Roy'),
+(2, 'Learn Python', 'BY Roy'),
+(3, 'Learn Mysql', 'BY Sachin'),
+(4, 'Learn React', 'BY Ashish'),
+(5, 'Learn MongoDB', 'BY Ashish');
+
